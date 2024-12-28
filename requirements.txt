@@ -1,0 +1,4 @@
+Flask
+requests
+langchain
+langchain-google-genai
