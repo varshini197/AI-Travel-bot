@@ -17,10 +17,10 @@ Route Optimization: Provides efficient routes between destinations.
 Interactive Chat Interface: Engages users through an AI-powered conversational interface.
 Tech Stack
 
-Frontend: JavaScript
-Backend: Flask
-AI Framework: Google Generative AI APIs
-Mapping Service: Google Maps API / OpenStreetMap
+-Frontend: JavaScript
+-Backend: Flask
+-AI Framework: Google Generative AI APIs
+-Mapping Service: Google Maps API / OpenStreetMap
 Installation
 
 Prerequisites
