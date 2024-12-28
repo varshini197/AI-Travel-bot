@@ -6,6 +6,7 @@ from langchain import PromptTemplate, LLMChain
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain.agents import initialize_agent, Tool
 from flask_cors import CORS
+from langchain.memory import ConversationBufferMemory
 
 # Initialize the Gemini LLM
 llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash")
@@ -19,8 +20,8 @@ app = Flask(__name__)
 CORS(app) 
 
 # API Keys
-os.environ['GOOGLE_API_KEY'] = 'AIzaSyBU5L5s0fpxGkRjPyo8qAVHlW4CDQMXDW0'  #  Gemini API Key
-API_KEY = 'AIzaSyDgay127A4v2DQKv-8CXUF7nSl1PvEyfrg'  #Google Maps API Key
+os.environ['GOOGLE_API_KEY'] = 'GOOGLE_API_KEY'  #  Gemini API Key
+API_KEY = 'GOOGLE_MAPS_API_KEY'  #Google Maps API Key
 
 os.environ['GOOGLE_APPLICATION_CREDENTIALS'] = "C:/Users/saiva/Downloads/travel-agent-444918-b38b4ac7783d.json"
 
