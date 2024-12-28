@@ -24,5 +24,5 @@ Tech Stack
 
 # Prerequisites
 
-npm (version 8 or higher)
-A Google API Key for Maps and Generative AI
+- npm (version 8 or higher)
+- A Google API Key for Maps and Generative AI
