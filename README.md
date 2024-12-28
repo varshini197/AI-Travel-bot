@@ -1,13 +1,13 @@
 # AI-Travel-bot
 The AI Travel Bot assists users by providing personalized tourist recommendations based on their location and preferences. It helps create detailed travel plans, including itinerary suggestions for multiple days. Additionally, the bot offers real-time route information, guiding users from their source to destination with turn-by-turn directions.
 
-Overview
-The AI Travel Bot is a smart travel assistant that helps users:
+# Overview
 
-Discover tourist attractions nearby.
-Plan personalized travel itineraries.
-Provide optimized travel routes.
-This bot leverages AI for location-based recommendations and intelligent route planning, making travel planning seamless and fun!
+
+- Discover tourist attractions nearby.
+- Plan personalized travel itineraries.
+- Provide optimized travel routes.
+- This bot leverages AI for location-based recommendations and intelligent route planning, making travel planning seamless and fun!
 
 # Features
 
